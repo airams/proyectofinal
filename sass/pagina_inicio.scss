@@ -1,0 +1,118 @@
+.banner
+{
+    width: 100%;
+    height: 520px;
+    background: url("../img/banner.png"), lightgray 50% / cover no-repeat;
+}
+h1{
+    display: block;
+    margin-top: 141px !important;
+}
+.container-articles
+{
+    width: 85%;
+    margin: auto;
+    margin-top: 114px;
+}
+.row{
+    article{
+        .image-content{
+            display: block;
+            width: 220px;
+            height: 220px;
+            flex-shrink: 0;
+            border-radius: 50%;
+            background: #D9D9D9;
+            margin: auto;
+        }
+        .title-article
+        {
+            margin-top: 64px;
+            color: #000;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        .text-article{
+            margin-top: 35px;
+            text-align: justify;
+            color: #000;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            display: block;
+        }
+        .w-90{
+            width: 90%;
+            margin: auto;
+        }
+        
+    }
+}
+.img-service-1
+{
+    width: 50%;
+    height: 544px;
+    background: url("../img/Sección-1.jpg"), lightgray 50% / cover no-repeat;
+}
+
+.img-service-2
+{
+    width: 50%;
+    height: 544px;
+    background: url("../img/Sección-2.jpg"), lightgray 50% / cover no-repeat;
+}
+
+.images-to-products
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 168px;
+}
+
+@media(max-width:890px){
+    .banner{
+        background-size: 130% 100%;
+    }
+}
+
+@media(max-width:762px){
+    .banner{
+        background-size: 150% 100%;
+    }
+    .images-to-products{
+        display: block;
+    }
+    .img-service-1
+    {
+        width: 90%;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    .img-service-2
+    {
+        width: 90%;
+        margin: auto;
+        margin-top: 40px;
+    }
+}
+
+@media(max-width:502px)
+{
+    
+    .img-service-1
+    {
+        width: 95%;
+        background-size: 106% 104%;
+    }
+
+    .img-service-2
+    {
+        width: 95%;
+        background-size: 106% 104%;
+    }
+}

@@ -1,0 +1,130 @@
+.title {
+  margin-top: 70px;
+}
+
+section {
+  width: 85%;
+  margin: auto;
+}
+section .promo-content {
+  width: 100%;
+  display: flex;
+}
+section .promo-1 {
+  width: 40%;
+  margin-right: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 214px;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+section .promo-1 img {
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover;
+}
+section .promo-2 img {
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover;
+}
+section .promo-3 img {
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover;
+}
+section .promo-2 {
+  width: 18.5%;
+  margin: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 214px;
+  transition: 300ms;
+  cursor: pointer;
+}
+section .promo-3 {
+  width: 49%;
+  height: 468px;
+  margin: auto;
+  margin-top: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 300ms;
+  cursor: pointer;
+}
+section .promo-1:hover,
+section .promo-3:hover,
+section .promo-2:hover {
+  transition: 500ms;
+  filter: hue-rotate(90deg);
+}
+
+.content-bottom {
+  width: 100%;
+  display: flex;
+  margin-top: 150px;
+}
+.content-bottom article {
+  width: 50%;
+  margin: auto;
+  height: 297px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section .content-bottom img {
+  width: 100%;
+  height: 100% !important;
+  object-fit: cover;
+} 
+
+.content-bottom article:first-child {
+  margin-right: 56px;
+}
+
+@media (max-width: 800px) {
+  .content-bottom {
+    display: block;
+  }
+  .content-bottom article {
+    width: 70%;
+    height: 350px;
+    margin-top: 20px;
+  }
+  section .promo-content {
+    display: block;
+  }
+  section .promo-3,
+  section .promo-2,
+  section .promo-1 {
+    width: 70%;
+    margin: auto;
+    height: 350px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .content-bottom {
+    display: block;
+  }
+  .content-bottom article {
+    width: 90%;
+    height: 350px;
+    margin-top: 20px;
+  }
+  section .promo-content {
+    display: block;
+  }
+  section .promo-3,
+  section .promo-2,
+  section .promo-1 {
+    width: 90%;
+    margin: auto;
+    height: 350px;
+    margin-top: 50px;
+  }
+}
+
+/*# sourceMappingURL=promociones.css.map */
